@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: hidden-display-378102
+    schema: ds_trips_data_all
+
+    tables:
+      - name: ext_green_tripdata
+      - name: ext_yellow_tripdata
+
